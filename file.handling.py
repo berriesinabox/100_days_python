@@ -1,0 +1,26 @@
+# f1=open("file_py1.txt","w+")
+# print(f1.tell())
+# f1.write("Hi welcome \n i am trying to study file handling in python")
+# print(f1.tell())
+# f1.write("\n how about you?")
+# print(f1.tell())
+# #data_1=f1.read()
+# #print(data_1)
+# f1.seek(0)
+# print(f1.tell())
+# data_2=f1.read()
+# print(f1.tell())
+# print(data_2)
+# f1.close()
+
+# f1=open("file_py1.txt","a+")
+# for i in range(2): 
+#    f1.seek(0)
+#    data=f1.read()
+#    print(data)
+# f1.write("\n are you interested in coding")
+
+F1=open("images_python\moviebgimg.png","rb")
+F2=open("images_python\movieimg.png","wb")
+for i in F1:
+    F2.write(i)
