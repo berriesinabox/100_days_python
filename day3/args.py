@@ -21,3 +21,14 @@ def adds(*nums , name):
         c=c+i
     print(f"sum is {c}")
 adds(3,4,name="shivi")
+
+print()
+
+def multiply(*mul):
+    c=1
+    for i in mul:
+        c=c*i
+    print(f"miltiplication of numbers is {c}")
+
+multiply(2,3,-6,8)
+multiply(2,5,8,9,0,6)
