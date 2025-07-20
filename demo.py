@@ -4,4 +4,5 @@ for i in numbers:
     square.append(i ** 2)
 
 print(square)
+print(f"square of the number is {square})
         
