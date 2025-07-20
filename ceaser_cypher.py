@@ -1,4 +1,4 @@
-# a=input("type E for encrypting and D for decrypting the message: ")
+## a=input("type E for encrypting and D for decrypting the message: ")
 # text=input("enter your text here: ")
 # shift=int(input("enter the shift value: "))
 # word=""
